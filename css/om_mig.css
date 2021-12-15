@@ -1,0 +1,115 @@
+/* --------------ROOT------------- */
+:root {
+  --white: #ffffff;
+  --creme: #f2ede2;
+  --hasselnut: #d8cdc2;
+  --purplebrown: #4c0b05;
+  --pinetree: #738153;
+
+  --lust: lust, serif;
+  --nunito: nunito-sans, sans-serif;
+}
+
+main {
+  margin-top: 100px;
+}
+
+/* -----------------INTRO----------------- */
+
+#intro,
+#reflektion,
+#kontakt,
+.intro_img {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+}
+.intro_img {
+  max-width: 700px;
+  padding-top: 0;
+}
+
+h2 {
+  margin-bottom: 10px !important;
+}
+
+/* -------------CV------------- */
+
+#cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+#core {
+  width: 2px;
+  background-color: var(--purplebrown);
+  height: 900px;
+}
+
+.streg {
+  height: 2px;
+  width: 100px;
+  background-color: var(--purplebrown);
+  margin: 0 !important;
+}
+
+.box_left1,
+.box_left2,
+.box_left3,
+.box_left4,
+.box_left5,
+.box_right1,
+.box_right1,
+.box_right2,
+.box_right3,
+.box_right4,
+.box_right5,
+.box_right6,
+.box_left6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#cv p {
+  margin-bottom: 0 !important;
+  padding-right: 10px;
+}
+
+#leftelements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 450px;
+}
+
+#rightelements {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  justify-content: space-between;
+  max-width: 450px;
+}
+
+/* ------------REFLEKTION------------ */
+
+#reflektion {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* -------------KONTAKT------------- */
+
+#kontakt {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.kontakt_text {
+  margin-right: 30px;
+}

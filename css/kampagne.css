@@ -1,0 +1,125 @@
+/* --------------ROOT------------- */
+:root {
+  --white: #ffffff;
+  --creme: #f2ede2;
+  --hasselnut: #d8cdc2;
+  --purplebrown: #4c0b05;
+  --pinetree: #738153;
+
+  --lust: lust, serif;
+  --nunito: nunito-sans, sans-serif;
+}
+main {
+  margin-top: 100px;
+}
+/* ---------------HERO--------------- */
+#hero {
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero video {
+  width: 100%;
+}
+
+#hero h2 {
+  z-index: 5;
+  position: absolute;
+  color: var(--white);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+/* ---------------CONTENT--------------- */
+
+#content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* ---------------TEXT--------------- */
+
+#text {
+  padding-right: 30px;
+}
+#intro_text {
+  font-size: 1.3rem;
+}
+
+h3 {
+  padding-top: 30px;
+}
+
+.book_kam {
+  color: var(--purplebrown) !important;
+  padding: 20px;
+  font-size: 1.3rem;
+  display: block;
+  max-width: 130px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* ---------------SIGN UP--------------- */
+
+#fredagsmail {
+  background-color: var(--pinetree);
+  padding: 30px;
+  color: var(--white);
+  max-width: 400px;
+}
+
+.form_div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.form_div input {
+  margin: 10px;
+  border: 2px solid var(--white);
+  padding: 10px;
+  background-color: inherit;
+  color: var(--white);
+}
+#submit {
+  color: var(--white) !important;
+}
+
+#submit:hover {
+  background-color: var(--white);
+  color: var(--pinetree) !important;
+  transition: 0.2s;
+}
+
+#meditation {
+  color: var(--white);
+  text-decoration: underline;
+  display: none;
+}
+
+/* ------------MEDIA QUIERIES------------ */
+@media screen and (max-width: 1000px) {
+  #content {
+    flex-wrap: wrap;
+  }
+
+  #fredagsmail {
+    max-width: none;
+  }
+  .form_div {
+    justify-content: center;
+  }
+
+  #hero {
+    height: auto;
+}
